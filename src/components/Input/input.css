@@ -1,0 +1,39 @@
+.input {
+  height: 50px;
+  width: 80%;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  background: none;
+  border: none;
+  margin-left: 12px;
+  flex: 1;
+}
+
+input:focus {
+  outline: none;
+  font-weight: bold;
+}
+button {
+  margin-right: 8px;
+  background-color: rgb(214, 213, 213);
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 50px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.btn1:hover {
+  background-image: linear-gradient(
+    to right,
+    #ffecd2 0%,
+    #fcb69f 51%,
+    #ffecd2 100%
+  );
+}
